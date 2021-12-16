@@ -11,6 +11,10 @@ body{
 .nav-wrapper {
   display:flex;
   justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 
@@ -26,7 +30,7 @@ body{
 .nav-link-wrapper {
   height: 22px;
   border-bottom: 1px solid transparent;
-  transition: border-bottom 0,5s;
+  transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper{
@@ -49,11 +53,15 @@ font-style: normal;
   color: black;
 }
 
-.h1{
+h1{
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   font-size: xx-large;
+}
+
+h3{
+  text-align: center;
 }
 
 .portfolio-items-wrapper {
@@ -64,6 +72,7 @@ font-style: normal;
 
 .portfolio-item-wrapper{
   position: relative;
+
 }
 
 
@@ -75,14 +84,9 @@ font-style: normal;
   background-position: center;
   background-repeat: no-repeat;
   color: transparent;
-  background-color:black;
+  text-align: center;
+
 }
-
-.layer:hover{
-  background-color: white;
-}
-
-
 
 
 .img-text-wrapper{
@@ -95,11 +99,21 @@ font-style: normal;
   height: 100%;
   padding-left: 100px;
   padding-right: 100px;
+
 }
 .img-text-wrapper:hover{
   background-color:black;
   opacity: 0.8;
 
+}
+
+.subtitle {
+  font-size: xx-large;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 .img-text-wrapper .subtitle {
@@ -122,10 +136,11 @@ font-style: normal;
 .img-text-wrapper:hover .subtitle{
   font-weight: 600;
   color: white;
+  text-align: center;
 }
 
 
 .img-darken{
   transition: 1s;
-  filter: brightness (10%);
+  filter: brightness(10%);
 }
